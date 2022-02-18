@@ -1,0 +1,170 @@
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+
+  background-color: rgba(79, 98, 246, 0.3);
+
+  &__box {
+    display: flex;
+  }
+
+  &__nav {
+    background-color: #fff;
+
+    &-content {
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    &-menu {
+      display: block;
+      width: 24px;
+      height: 24px;
+      margin-left: 48px;
+  
+      background-image: url(../../img/eva_menu-fill.png);
+
+      @media (min-width: 1023px) {
+        display: none;
+      }
+    }
+  }
+
+  &__title {
+
+    &-content {
+      padding: 32px 0 16px;
+      display: flex;
+      flex-direction: column;
+
+      @media (min-width: 767px) {
+        align-items: center;
+      }
+
+      @media (min-width: 1023px) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+      }
+    }
+
+    &-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @media (min-width: 1023px) {
+        align-items: flex-start;
+      }
+    }
+
+    &-title {
+      max-width: 650px;
+      font-size: 40px;
+      line-height: 44px;
+      font-weight: 700;
+      margin-bottom: 24px;
+
+      color: #333333;
+
+      @media (min-width: 568px) {
+        font-size: 64px;
+        line-height: 72px;
+        text-align: center;
+      }
+
+      @media (min-width: 1023px) {
+        text-align: left;
+      }
+
+    }
+
+    &-text {
+      max-width: 500px;
+      margin-bottom: 32px;
+
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+
+      @media (min-width: 568px) {
+        text-align: center;
+      }
+
+      @media (min-width: 1023px) {
+        text-align: left;
+        margin-bottom: 48px;
+      }
+    }
+
+    &-button {
+      align-self: center;
+      width: 280px;
+      padding: 20px 0;
+      margin-bottom: 32px;
+
+      background-color: rgba(98, 72, 255, 1);
+      border-radius: 60px;
+      color: #fff;
+
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+
+    &-picture {
+      width: 68vw;
+      height: 68vw;
+      align-self: center;
+
+
+      @media (min-width: 568px) {
+        width: 50vw;
+        height: 50vw;
+      }
+
+      @media (min-width: 767px) {
+        width: 400px;
+        height: 400px;
+      }
+
+      @media (min-width: 1123px) {
+        width: 480px;
+        height: 480px;
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 55px;
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
+
+  &__item {
+    margin-right: 32px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+  }
+}

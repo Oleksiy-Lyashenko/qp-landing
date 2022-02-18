@@ -1,0 +1,36 @@
+.nav {
+  height: 100vh;
+  background-color: #fff;
+
+  &__header {
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    padding-bottom: 30px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  &__link {
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+.close {
+  transform: rotate(45deg);
+}

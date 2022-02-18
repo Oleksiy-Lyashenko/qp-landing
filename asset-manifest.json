@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/qp-landing/static/css/main.0841e5b4.css",
+    "main.js": "/qp-landing/static/js/main.c8e1ded9.js",
+    "static/media/Montserrat-Regular.ttf": "/qp-landing/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
+    "static/media/MuseoSansCyrl-500.woff": "/qp-landing/static/media/MuseoSansCyrl-500.8cd656174445150d19cc.woff",
+    "static/media/MuseoSansCyrl-700.woff": "/qp-landing/static/media/MuseoSansCyrl-700.0d5cb4ec8ac2a9f30484.woff",
+    "static/media/MuseoSansCyrl-300.woff": "/qp-landing/static/media/MuseoSansCyrl-300.397ed770be641d6e6bf1.woff",
+    "static/media/picture_header.png": "/qp-landing/static/media/picture_header.aacf548910d86e219730.png",
+    "index.html": "/qp-landing/index.html",
+    "main.0841e5b4.css.map": "/qp-landing/static/css/main.0841e5b4.css.map",
+    "main.c8e1ded9.js.map": "/qp-landing/static/js/main.c8e1ded9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0841e5b4.css",
+    "static/js/main.c8e1ded9.js"
+  ]
+}
